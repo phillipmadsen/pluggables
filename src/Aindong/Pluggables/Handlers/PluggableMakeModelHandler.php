@@ -52,8 +52,8 @@ class PluggableMakeModelHandler
     protected function getPath()
     {
         $path = $this->pluggable->getPluggablePath($this->moduleName);
-
-        return $path.'Models';
+// outputing path incorrectly
+        return $path.'Models/';
     }
 
     protected function getFilename()
